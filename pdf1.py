@@ -41,7 +41,7 @@ class PdfTripper(object):
 
 
 if __name__ == '__main__':
-    input_path = "test.pdf"
+    input_path = "Python核心编程.pdf"
     output_path = "test1.pdf"
-    remove_list = []
+    remove_list = b'N\xeb[Ni\'C#?\x03DA\x00"]\x04K\xbb\x00*\x003\x007\x007\x002\x007\x002\x00;\x005\x003\x004\x007\x00+\x00"=\xfc>\x94\x00"K\xf3\x81\xb6b1W,'
     PdfTripper(input_path, output_path, remove_list).execute()
